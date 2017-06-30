@@ -1,0 +1,15 @@
+C:\src\GIT\rafaelvjb\Udemy\XamarinForms_Mosh\src\Ex1_Quotes\Ex1_Quotes\Ex1_Quotes\Ex1_Quotes\bin\Debug\Ex1_Quotes.dll
+C:\src\GIT\rafaelvjb\Udemy\XamarinForms_Mosh\src\Ex1_Quotes\Ex1_Quotes\Ex1_Quotes\Ex1_Quotes\bin\Debug\Ex1_Quotes.pdb
+C:\src\GIT\rafaelvjb\Udemy\XamarinForms_Mosh\src\Ex1_Quotes\Ex1_Quotes\Ex1_Quotes\Ex1_Quotes\bin\Debug\Xamarin.Forms.Core.dll
+C:\src\GIT\rafaelvjb\Udemy\XamarinForms_Mosh\src\Ex1_Quotes\Ex1_Quotes\Ex1_Quotes\Ex1_Quotes\bin\Debug\Xamarin.Forms.Platform.dll
+C:\src\GIT\rafaelvjb\Udemy\XamarinForms_Mosh\src\Ex1_Quotes\Ex1_Quotes\Ex1_Quotes\Ex1_Quotes\bin\Debug\Xamarin.Forms.Xaml.dll
+C:\src\GIT\rafaelvjb\Udemy\XamarinForms_Mosh\src\Ex1_Quotes\Ex1_Quotes\Ex1_Quotes\Ex1_Quotes\bin\Debug\Xamarin.Forms.Core.pdb
+C:\src\GIT\rafaelvjb\Udemy\XamarinForms_Mosh\src\Ex1_Quotes\Ex1_Quotes\Ex1_Quotes\Ex1_Quotes\bin\Debug\Xamarin.Forms.Core.xml
+C:\src\GIT\rafaelvjb\Udemy\XamarinForms_Mosh\src\Ex1_Quotes\Ex1_Quotes\Ex1_Quotes\Ex1_Quotes\bin\Debug\Xamarin.Forms.Platform.pdb
+C:\src\GIT\rafaelvjb\Udemy\XamarinForms_Mosh\src\Ex1_Quotes\Ex1_Quotes\Ex1_Quotes\Ex1_Quotes\bin\Debug\Xamarin.Forms.Xaml.pdb
+C:\src\GIT\rafaelvjb\Udemy\XamarinForms_Mosh\src\Ex1_Quotes\Ex1_Quotes\Ex1_Quotes\Ex1_Quotes\bin\Debug\Xamarin.Forms.Xaml.xml
+C:\src\GIT\rafaelvjb\Udemy\XamarinForms_Mosh\src\Ex1_Quotes\Ex1_Quotes\Ex1_Quotes\Ex1_Quotes\obj\Debug\Ex1_Quotes.csprojResolveAssemblyReference.cache
+C:\src\GIT\rafaelvjb\Udemy\XamarinForms_Mosh\src\Ex1_Quotes\Ex1_Quotes\Ex1_Quotes\Ex1_Quotes\obj\Debug\Ex1_Quotes.MainPage.xaml.g.cs
+C:\src\GIT\rafaelvjb\Udemy\XamarinForms_Mosh\src\Ex1_Quotes\Ex1_Quotes\Ex1_Quotes\Ex1_Quotes\obj\Debug\Ex1_Quotes.App.xaml.g.cs
+C:\src\GIT\rafaelvjb\Udemy\XamarinForms_Mosh\src\Ex1_Quotes\Ex1_Quotes\Ex1_Quotes\Ex1_Quotes\obj\Debug\Ex1_Quotes.dll
+C:\src\GIT\rafaelvjb\Udemy\XamarinForms_Mosh\src\Ex1_Quotes\Ex1_Quotes\Ex1_Quotes\Ex1_Quotes\obj\Debug\Ex1_Quotes.pdb

@@ -1,0 +1,2 @@
+android.app.Application
+Ex1_Quotes.Android
