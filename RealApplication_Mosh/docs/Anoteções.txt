@@ -1,6 +1,8 @@
 Mosh - Real applications
 
-Seção 3 - 33
+---> Seção 3 
+	---> Aula 33
+	
 Instalando e configurando cli para angular
 
 terminal/prompt: npm install @angular/cli@latest -g
@@ -16,4 +18,7 @@ prompt no projeto salvar o cli: npm install @angular/cli@latest --save-dev
 entrar na pasta components para criar um novo: 
 cd ClientApp\app\components
 ng g component vehicle-form
+
+
+	---> Aula 34
 
