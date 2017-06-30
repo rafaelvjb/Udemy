@@ -9,7 +9,9 @@
                     Android="0,40,0,0">
         </OnPlatform>
     </ContentPage.Padding>
-    <StackLayout BindingContext="{x:Reference FontSizeSlider}" BackgroundColor="AntiqueWhite" VerticalOptions="FillAndExpand">
+    <StackLayout BindingContext="{x:Reference FontSizeSlider}" 
+                 BackgroundColor="AntiqueWhite" 
+                 VerticalOptions="FillAndExpand">
         <Button Clicked="ProximaFrase_OnClicked"
                 Text="next"></Button>
         <Label Text="{Binding Value, StringFormat='Font Size: {0:F2}'}"
