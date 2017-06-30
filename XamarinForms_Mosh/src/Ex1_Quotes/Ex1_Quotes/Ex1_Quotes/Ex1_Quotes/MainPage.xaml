@@ -16,7 +16,9 @@
                VerticalOptions="Start" 
                HorizontalOptions="Center" />
         <Slider x:Name="FontSizeSlider"
-                VerticalOptions="Start"></Slider>
+                VerticalOptions="Start"
+                Maximum="50"
+                Minimum="16"></Slider>
         <Label x:Name="Frases" 
                FontSize="{Binding Value}"
                VerticalOptions="FillAndExpand"

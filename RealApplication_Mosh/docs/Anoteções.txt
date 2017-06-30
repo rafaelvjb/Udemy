@@ -22,3 +22,5 @@ ng g component vehicle-form
 
 	---> Aula 34
 
+na classe app.module.ts vamos adicionar o novo modulo
+            { path:'vehicles/new' , component: VehicleFormComponent},
