@@ -14,6 +14,6 @@ no arquivo copiado para o projeto, alterar o value do root de "apps"\src" para "
 prompt no projeto salvar o cli: npm install @angular/cli@latest --save-dev
 
 entrar na pasta components para criar um novo: 
-cd ClientApp\components
+cd ClientApp\app\components
 ng g component vehicle-form
 
