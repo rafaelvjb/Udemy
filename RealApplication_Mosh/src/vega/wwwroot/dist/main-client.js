@@ -59,7 +59,7 @@
 /******/ 	
 /******/ 	
 /******/ 	var hotApplyOnUpdate = true;
-/******/ 	var hotCurrentHash = "d2db6ac40fa34eb7f29f"; // eslint-disable-line no-unused-vars
+/******/ 	var hotCurrentHash = "16f85287b5e4892fcac3"; // eslint-disable-line no-unused-vars
 /******/ 	var hotCurrentModuleData = {};
 /******/ 	var hotCurrentChildModule; // eslint-disable-line no-unused-vars
 /******/ 	var hotCurrentParents = []; // eslint-disable-line no-unused-vars
@@ -1511,7 +1511,7 @@ var core_1 = __webpack_require__(1);
 var platform_browser_1 = __webpack_require__(42);
 var forms_1 = __webpack_require__(38);
 var http_1 = __webpack_require__(4);
-var app_module_shared_1 = __webpack_require__(11);
+var app_module_1 = __webpack_require__(11);
 var AppModule = (function () {
     function AppModule() {
     }
@@ -1519,13 +1519,13 @@ var AppModule = (function () {
 }());
 AppModule = __decorate([
     core_1.NgModule({
-        bootstrap: app_module_shared_1.sharedConfig.bootstrap,
-        declarations: app_module_shared_1.sharedConfig.declarations,
+        bootstrap: app_module_1.sharedConfig.bootstrap,
+        declarations: app_module_1.sharedConfig.declarations,
         imports: [
             platform_browser_1.BrowserModule,
             forms_1.FormsModule,
             http_1.HttpModule
-        ].concat(app_module_shared_1.sharedConfig.imports),
+        ].concat(app_module_1.sharedConfig.imports),
         providers: [
             { provide: 'ORIGIN_URL', useValue: location.origin }
         ]
@@ -1547,6 +1547,7 @@ var navmenu_component_1 = __webpack_require__(16);
 var home_component_1 = __webpack_require__(15);
 var fetchdata_component_1 = __webpack_require__(14);
 var counter_component_1 = __webpack_require__(13);
+var vehicle_form_component_1 = __webpack_require__(45);
 exports.sharedConfig = {
     bootstrap: [app_component_1.AppComponent],
     declarations: [
@@ -1554,7 +1555,8 @@ exports.sharedConfig = {
         navmenu_component_1.NavMenuComponent,
         counter_component_1.CounterComponent,
         fetchdata_component_1.FetchDataComponent,
-        home_component_1.HomeComponent
+        home_component_1.HomeComponent,
+        vehicle_form_component_1.VehicleFormComponent
     ],
     imports: [
         router_1.RouterModule.forRoot([
@@ -3778,6 +3780,75 @@ __webpack_require__(7);
 __webpack_require__(6);
 module.exports = __webpack_require__(5);
 
+
+/***/ }),
+/* 45 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+Object.defineProperty(exports, "__esModule", { value: true });
+var core_1 = __webpack_require__(1);
+var VehicleFormComponent = (function () {
+    function VehicleFormComponent() {
+    }
+    VehicleFormComponent.prototype.ngOnInit = function () {
+    };
+    return VehicleFormComponent;
+}());
+VehicleFormComponent = __decorate([
+    core_1.Component({
+        selector: 'app-vehicle-form',
+        template: __webpack_require__(47),
+        styles: [__webpack_require__(48)]
+    }),
+    __metadata("design:paramtypes", [])
+], VehicleFormComponent);
+exports.VehicleFormComponent = VehicleFormComponent;
+
+
+/***/ }),
+/* 46 */
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(2)(undefined);
+// imports
+
+
+// module
+exports.push([module.i, "", ""]);
+
+// exports
+
+
+/***/ }),
+/* 47 */
+/***/ (function(module, exports) {
+
+module.exports = "<p>\n  vehicle-form works!\n</p>\n";
+
+/***/ }),
+/* 48 */
+/***/ (function(module, exports, __webpack_require__) {
+
+
+        var result = __webpack_require__(46);
+
+        if (typeof result === "string") {
+            module.exports = result;
+        } else {
+            module.exports = result.toString();
+        }
+    
 
 /***/ })
 /******/ ]);
