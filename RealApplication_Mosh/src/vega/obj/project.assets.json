@@ -10277,17 +10277,14 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\src\\udemy\\vega\\Vega.csproj",
+      "projectUniqueName": "C:\\src\\GIT\\rafaelvjb\\Udemy\\RealApplication_Mosh\\src\\vega\\Vega.csproj",
       "projectName": "Vega",
-      "projectPath": "c:\\src\\udemy\\vega\\Vega.csproj",
-      "outputPath": "c:\\src\\udemy\\vega\\obj\\",
+      "projectPath": "C:\\src\\GIT\\rafaelvjb\\Udemy\\RealApplication_Mosh\\src\\vega\\Vega.csproj",
+      "outputPath": "C:\\src\\GIT\\rafaelvjb\\Udemy\\RealApplication_Mosh\\src\\vega\\obj\\",
       "projectStyle": "PackageReference",
       "originalTargetFrameworks": [
         "netcoreapp1.1"
       ],
-      "files": {
-        "lib/netcoreapp1.1/Vega.dll": "c:\\src\\udemy\\vega\\bin\\placeholder\\netcoreapp1.1\\Vega.dll"
-      },
       "frameworks": {
         "netcoreapp1.1": {
           "projectReferences": {}
@@ -10297,21 +10294,34 @@
     "frameworks": {
       "netcoreapp1.1": {
         "dependencies": {
+          "Microsoft.AspNetCore": {
+            "target": "Package",
+            "version": "1.1.0"
+          },
+          "Microsoft.Extensions.Logging.Debug": {
+            "target": "Package",
+            "version": "1.1.0"
+          },
+          "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+            "target": "Package",
+            "version": "2.0.1"
+          },
+          "Microsoft.EntityFrameworkCore.Design": {
+            "target": "Package",
+            "version": "1.1.2"
+          },
           "Microsoft.NETCore.App": {
+            "target": "Package",
+            "version": "1.1.2",
+            "autoReferenced": true
+          },
+          "Microsoft.EntityFrameworkCore.SqlServer": {
             "target": "Package",
             "version": "1.1.2"
           },
           "AutoMapper": {
             "target": "Package",
             "version": "6.1.1"
-          },
-          "AutoMapper.Extensions.Microsoft.DependencyInjection": {
-            "target": "Package",
-            "version": "2.0.1"
-          },
-          "Microsoft.AspNetCore": {
-            "target": "Package",
-            "version": "1.1.0"
           },
           "Microsoft.AspNetCore.Mvc": {
             "target": "Package",
@@ -10322,18 +10332,6 @@
             "version": "1.1.1"
           },
           "Microsoft.AspNetCore.StaticFiles": {
-            "target": "Package",
-            "version": "1.1.0"
-          },
-          "Microsoft.EntityFrameworkCore.Design": {
-            "target": "Package",
-            "version": "1.1.2"
-          },
-          "Microsoft.EntityFrameworkCore.SqlServer": {
-            "target": "Package",
-            "version": "1.1.2"
-          },
-          "Microsoft.Extensions.Logging.Debug": {
             "target": "Package",
             "version": "1.1.0"
           }
