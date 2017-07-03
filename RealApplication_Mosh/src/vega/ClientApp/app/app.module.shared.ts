@@ -1,3 +1,5 @@
+import { MakeService } from './services/make.service';
+
 import { NgModule } from '@angular/core';
 import { RouterModule } from '@angular/router';
 
@@ -27,5 +29,8 @@ export const sharedConfig: NgModule = {
             { path: 'fetch-data', component: FetchDataComponent },
             { path: '**', redirectTo: 'home' }
         ])
+    ],
+    providers: [
+        MakeService
     ]
 };
