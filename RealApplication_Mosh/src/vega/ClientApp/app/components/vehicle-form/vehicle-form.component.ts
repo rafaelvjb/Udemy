@@ -4,7 +4,8 @@ import { Component, OnInit } from '@angular/core';
 @Component({
   selector: 'app-vehicle-form',
   templateUrl: './vehicle-form.component.html',
-  styleUrls: ['./vehicle-form.component.css']
+  styleUrls: ['./vehicle-form.component.css'],
+  providers:[MakeService]
 })
 export class VehicleFormComponent implements OnInit {
   makes;
